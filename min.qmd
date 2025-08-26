@@ -9,7 +9,9 @@ filters:
 
 
 ```{webr-r}
-namedf <- read.csv("data/children.csv")
+url <- "https://dalcph.github.io/hw-3/data/children.csv"
+download.file(url, "children.csv")
+namedf <- read.csv("children.csv")
 ```
 
 ```{webr-r}
