@@ -1,0 +1,25 @@
+---
+title: "Fix the bug"
+format:
+  html:
+    toc: false
+filters:
+  - webr
+---
+
+
+```{webr-r}
+namedf <- read.csv("data/children.csv")
+```
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+
+summary(fit)
+```
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+
+summary(fit)
+```

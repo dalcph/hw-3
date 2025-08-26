@@ -1,0 +1,10 @@
+project:
+  type: website
+  resources:
+    - data/*.csv   # copies all CSVs in data/ into the built site
+format:
+  html:
+    toc: false
+filters:
+  - webr
+
