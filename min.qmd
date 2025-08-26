@@ -6,9 +6,16 @@ format:
 filters:
   - webr
 ---
+```{webr-r}
+webr::install("ggplot2")
+library(ggplot2)
+```
 
 
 ```{webr-r}
+webr::install("ggplot2")
+library(ggplot2)
+
 url <- "https://dalcph.github.io/hw-3/data/children.csv"
 download.file(url, "children.csv")
 namedf <- read.csv("children.csv")
